@@ -12,14 +12,18 @@ This is a simple Python web application that allows users to view and add tasks 
     cd To-do-list-application-using-docker
     ```
 
-2. Build the Docker image:
+2. Docker should be installed.
+
+   To install : https://docs.docker.com/get-docker/     
+
+3. Build the Docker image:
     ```bash
     docker build -t todo-app .
     ```
 
-3. Run the Docker container:
+4. Run the Docker container:
     ```bash
     docker run -p 5000:5000 todo-app
     ```
 
-4. Visit the app at `http://localhost:5000` in your web browser.
+5. Visit the app at `http://localhost:5000` in your web browser.
